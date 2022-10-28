@@ -12,13 +12,17 @@ header {
   position: fixed;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  top: 0px;
   height: 69px;
-  margin: 0px 10px;
   width: 100%;
   border-bottom: 1px solid seashell;
+  background: black;
+  z-index: 10;
 }
 
 header img {
+  margin-left: 10px;
   height: 50px;
 }
 
@@ -41,6 +45,7 @@ header ul li a {
 
 /* MAIN CONTENT */
 main {
+  position: relative;
   top: 69px;
 }
 
