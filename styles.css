@@ -3,7 +3,7 @@ body {
   background-color: black;
   font-size: 22px;
   color: seashell;
-  opacity: 0.9;
+  opacity: 0.6;
   text-align: center;
 }
 
@@ -46,10 +46,34 @@ header ul li a {
 /* MAIN CONTENT */
 main {
   position: relative;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
   top: 69px;
 }
 
+/* MISSION SECTION */
+#mission-section {
+  height: 700px;
+  max-width: 1200px;
+  background-image: url("./resources/images/mission-background.jpeg");
+  display: flex;
+  align-items: center;
+}
+
+#mission-section div {
+  background: black;
+  width: 100%;
+}
+
+#mission-section h2 {
+}
+
 /* TEA OF THE MONTH */
+#tea-of-month-section {
+  flex: 1;
+}
+
 .card {
   height: 200px;
   width: 300px;
@@ -61,4 +85,9 @@ main {
 }
 
 .card h3 {
+}
+
+/* LOCATIONS SECTION */
+#locations-section {
+  flex: 1;
 }
