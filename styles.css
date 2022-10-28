@@ -119,12 +119,41 @@ section {
 
 #locations-section .locations-container {
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
 }
 
 .location-card {
+  display: flex;
+  flex-flow: column;
   width: 300px;
   background: black;
-  margin: 15px 40px;
+  margin: 15px 30px;
   opacity: 1;
+}
+
+.location-card h4 {
+  margin: 15px;
+  font-size: 18px;
+}
+
+/* CONTACT SECTION */
+#contact-section {
+  height: 200px;
+  display: flex;
+  flex-flow: column;
+}
+
+#contact-section h2 {
+  margin: 10px;
+}
+
+#contact-section h5 {
+  margin: 10px;
+}
+
+/* FOOTER SECTION */
+footer {
+  margin: 50px 20px 20px;
+  text-align: left;
+  font-size: 16px;
 }
