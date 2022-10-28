@@ -7,6 +7,43 @@ body {
   text-align: center;
 }
 
+/* HEADER */
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  margin: 0px 10px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+
+header img {
+  height: 50px;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+header ul li {
+  list-style: none;
+  text-decoration: underline;
+  padding: 0px 10px;
+}
+
+header ul li a {
+  color: seashell;
+  opacity: 0.9;
+}
+
+/* MAIN CONTENT */
+main {
+  top: 69px;
+}
+
 /* TEA OF THE MONTH */
 .card {
   height: 200px;
