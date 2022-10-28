@@ -66,25 +66,36 @@ main {
   width: 100%;
 }
 
-#mission-section h2 {
-}
-
 /* TEA OF THE MONTH */
 #tea-of-month-section {
-  flex: 1;
+  max-width: 1000px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.cards-container {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .card {
+  height: 250px;
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  flex-flow: column;
+}
+
+.card img {
   height: 200px;
   width: 300px;
 }
 
-.card img {
-  height: 100%;
-  width: 100%;
-}
-
 .card h3 {
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 /* LOCATIONS SECTION */
