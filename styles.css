@@ -52,6 +52,10 @@ main {
   top: 69px;
 }
 
+section {
+  margin: 10px 0px;
+}
+
 /* MISSION SECTION */
 #mission-section {
   height: 700px;
@@ -100,5 +104,27 @@ main {
 
 /* LOCATIONS SECTION */
 #locations-section {
-  flex: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./resources/images/locations-background.webp");
+  max-width: 1200px;
+  height: 500px;
+}
+
+#locations-section h2 {
+  margin: 15px;
+}
+
+#locations-section .locations-container {
+  display: flex;
+  flex-flow: row;
+}
+
+.location-card {
+  width: 300px;
+  background: black;
+  margin: 15px 40px;
+  opacity: 1;
 }
